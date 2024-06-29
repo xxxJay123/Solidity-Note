@@ -1,0 +1,102 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "idToAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "swapPair",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_Key",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_Value",
+						"type": "address"
+					}
+				],
+				"name": "writeMap",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"06)Mapping/Mappping.sol": "Mapping"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"06)Mapping/Mappping.sol": {
+			"keccak256": "0x93443f7fc739c5bbfad375c39079e00f3edd4cdacec08533c2378bfa6c36e96e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://48c901c98514c439669afe36e396e086627c17f97c95923cf128f2645b514c37",
+				"dweb:/ipfs/QmcVVaq68PkesucvEcfDNRD27WaskhvxxoxM9k3T7YA99j"
+			]
+		}
+	},
+	"version": 1
+}
