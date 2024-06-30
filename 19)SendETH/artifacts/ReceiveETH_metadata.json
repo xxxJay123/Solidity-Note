@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "gas",
+						"type": "uint256"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"19)SendETH/SendETH.sol": "ReceiveETH"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"19)SendETH/SendETH.sol": {
+			"keccak256": "0xbf3e16bcc23f74570587d050c4a2a00147d5cf0da91c02de6549f4bcba19f939",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://238332a8881edba5773adfbf8a8beb1b20e430b39cf82f0e869d052a180ca3b3",
+				"dweb:/ipfs/QmcqgWmckPFR8TqaNo9bZCjwZLFiqxFGujqtf4tuyiRzDT"
+			]
+		}
+	},
+	"version": 1
+}
